@@ -9,5 +9,5 @@ def main():
      print('-' * 25)
      for sub in submissions:
          print(submission_form.format(count, sub.ups, sub.title, sub.url))
-         count += 1
+         count ++
 main()
