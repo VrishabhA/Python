@@ -1,0 +1,9 @@
+import random
+import urllib.request
+
+def download_image(url):
+	name=random.randrange(1,1000)
+	fullName=str(name) + ".jpg"
+	urllib.request.urlretrieve(url, fullName)
+
+download_image("http://www.unixstickers.com/image/cache/data/stickers/python/python.sh-600x600.png")
