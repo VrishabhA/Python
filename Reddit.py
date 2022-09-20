@@ -1,7 +1,7 @@
 import praw
  
 def main():
-     r = praw.Reddit(user_agent='Nazi-titties')
+     r = praw.Reddit(user_agent='username')
      submissions = r.get_subreddit('news').get_hot(limit=30)
      submission_form = "{}) {} : {} <{}>"
      count = 1
