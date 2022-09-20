@@ -1,1 +1,3 @@
-Just some Basic Python Programs
+#Basic Python Programs
+
+Shit I make to learn this beauty !
